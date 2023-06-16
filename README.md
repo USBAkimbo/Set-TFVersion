@@ -3,7 +3,6 @@
 - This simply sets the command `tf` to use whichever version of Terraform you specify
 
 # Requirements
-- Chocolatey
 - PowerShell
 - See `Set-TFVersion.psm1` for further details
 
@@ -33,4 +32,5 @@ Write-Host -ForegroundColor Green "====================================="
 - Once you've done this, create a modules folder somewhere on your system as specified above in the `$Modules` variable
 - Then drop `Set-TFVersion.psm1` into your modules folder and open a new PowerShell window
 - Run `Set-TFVersion` and hit `tab` to confirm that the module is loaded
+- Select the version of Terraform that you want (if one is missing, edit the script and add it in)
 - Enjoy!
