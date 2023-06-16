@@ -33,4 +33,5 @@ Write-Host -ForegroundColor Green "====================================="
 - Then drop `Set-TFVersion.psm1` into your modules folder and open a new PowerShell window
 - Run `Set-TFVersion` and hit `tab` to confirm that the module is loaded
 - Select the version of Terraform that you want (if one is missing, edit the script and add it in)
+- Use Terraform with `tf` instead of `terraform`
 - Enjoy!
